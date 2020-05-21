@@ -1,0 +1,10 @@
+/Users/zackarywindham/Research/OOPS/build/CMakeFiles/rebuild_cache.dir
+/Users/zackarywindham/Research/OOPS/build/CMakeFiles/edit_cache.dir
+/Users/zackarywindham/Research/OOPS/build/CMakeFiles/oops.dir
+/Users/zackarywindham/Research/OOPS/build/MultiGrid/CMakeFiles/rebuild_cache.dir
+/Users/zackarywindham/Research/OOPS/build/MultiGrid/CMakeFiles/edit_cache.dir
+/Users/zackarywindham/Research/OOPS/build/maxwell/CMakeFiles/rebuild_cache.dir
+/Users/zackarywindham/Research/OOPS/build/maxwell/CMakeFiles/edit_cache.dir
+/Users/zackarywindham/Research/OOPS/build/maxwell/CMakeFiles/Wave.dir
+/Users/zackarywindham/Research/OOPS/build/tests/CMakeFiles/rebuild_cache.dir
+/Users/zackarywindham/Research/OOPS/build/tests/CMakeFiles/edit_cache.dir
