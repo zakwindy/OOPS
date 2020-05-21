@@ -1,5 +1,6 @@
-#include "maxwell.h"
-#include "operators.h"
+#include <maxwell.h>
+#include <operators.h>
+#include <maxwellparameters.h>
 #include <iostream>
 #include <cmath>
 
@@ -11,22 +12,19 @@ Maxwell::Maxwell(Domain &d, Solver &s) : ODE(2,0)
 	}
 	domain = &d;
 	solver = &s;
-
-	//Set some default parameters/
-	params = new Parameters();
+	params = nullptr;
 
 	reallocateData();
 }
 
 Maxwell::~Maxwell()
 {
-	delete params;
 }
 
 //Initial data routine
 void Maxwell::initData()
 {
-	MaxwellParameters *par = (MaxwellParameters *) params
+	MaxwellParameters *par = (MaxwellParameters *) params;
 	double x0 = par->getid_gauss_center();
 	double sigma = par->getid_gauss_width();
 
@@ -65,4 +63,12 @@ void Maxwell::rhs(const Grid &grid, double **u, double **dtu)
 	dtu[U_BZ][nx - 1 - nb] = - (u[U_EY][nx - 1 - nb] - u[U_EY][nx - 2 - nb]) / (dx);
 }
 
-
+Result Maxwell::setParameters(Parameters *p)
+{
+	if (p->getID() == pId)
+	{
+		params = p;
+		return SUCCESS;
+	}
+	else return UNRECOGNIZED_PARAMS;
+}

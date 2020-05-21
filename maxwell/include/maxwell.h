@@ -9,6 +9,7 @@ class Maxwell : public ODE
 		//Variable labels
 		static const unsigned int U_EY = 0;
 		static const unsigned int U_BZ = 1;
+		Parameters *params;
 	protected:
 //		virtual void applyBoundaries(bool intermediate);
 		virtual void rhs(const Grid& grid, double **u, double **dtu);
@@ -17,6 +18,7 @@ class Maxwell : public ODE
 		virtual ~Maxwell();
 
 		virtual void initData();
+		Result setParameters(Parameters *p);
 };
 
 
