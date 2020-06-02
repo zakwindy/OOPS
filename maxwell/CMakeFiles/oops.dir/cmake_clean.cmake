@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/oops.dir/src/cubic.cpp.o"
   "CMakeFiles/oops.dir/src/cubicinterpolator.cpp.o"
   "CMakeFiles/oops.dir/src/domain.cpp.o"
+  "CMakeFiles/oops.dir/src/fieldmap.cpp.o"
   "CMakeFiles/oops.dir/src/grid.cpp.o"
   "CMakeFiles/oops.dir/src/interpolator.cpp.o"
   "CMakeFiles/oops.dir/src/ode.cpp.o"

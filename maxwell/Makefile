@@ -237,6 +237,33 @@ src/domain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/oops.dir/build.make CMakeFiles/oops.dir/src/domain.cpp.s
 .PHONY : src/domain.cpp.s
 
+src/fieldmap.o: src/fieldmap.cpp.o
+
+.PHONY : src/fieldmap.o
+
+# target to build an object file
+src/fieldmap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oops.dir/build.make CMakeFiles/oops.dir/src/fieldmap.cpp.o
+.PHONY : src/fieldmap.cpp.o
+
+src/fieldmap.i: src/fieldmap.cpp.i
+
+.PHONY : src/fieldmap.i
+
+# target to preprocess a source file
+src/fieldmap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oops.dir/build.make CMakeFiles/oops.dir/src/fieldmap.cpp.i
+.PHONY : src/fieldmap.cpp.i
+
+src/fieldmap.s: src/fieldmap.cpp.s
+
+.PHONY : src/fieldmap.s
+
+# target to generate assembly for a file
+src/fieldmap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oops.dir/build.make CMakeFiles/oops.dir/src/fieldmap.cpp.s
+.PHONY : src/fieldmap.cpp.s
+
 src/grid.o: src/grid.cpp.o
 
 .PHONY : src/grid.o
@@ -499,6 +526,9 @@ help:
 	@echo "... src/domain.o"
 	@echo "... src/domain.i"
 	@echo "... src/domain.s"
+	@echo "... src/fieldmap.o"
+	@echo "... src/fieldmap.i"
+	@echo "... src/fieldmap.s"
 	@echo "... src/grid.o"
 	@echo "... src/grid.i"
 	@echo "... src/grid.s"

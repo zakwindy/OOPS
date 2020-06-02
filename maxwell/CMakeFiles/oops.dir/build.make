@@ -233,6 +233,19 @@ CMakeFiles/oops.dir/src/output.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oops.dir/src/output.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zackarywindham/Research/OOPS/src/output.cpp -o CMakeFiles/oops.dir/src/output.cpp.s
 
+CMakeFiles/oops.dir/src/fieldmap.cpp.o: CMakeFiles/oops.dir/flags.make
+CMakeFiles/oops.dir/src/fieldmap.cpp.o: ../src/fieldmap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zackarywindham/Research/OOPS/maxwell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/oops.dir/src/fieldmap.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oops.dir/src/fieldmap.cpp.o -c /Users/zackarywindham/Research/OOPS/src/fieldmap.cpp
+
+CMakeFiles/oops.dir/src/fieldmap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oops.dir/src/fieldmap.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zackarywindham/Research/OOPS/src/fieldmap.cpp > CMakeFiles/oops.dir/src/fieldmap.cpp.i
+
+CMakeFiles/oops.dir/src/fieldmap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oops.dir/src/fieldmap.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zackarywindham/Research/OOPS/src/fieldmap.cpp -o CMakeFiles/oops.dir/src/fieldmap.cpp.s
+
 # Object files for target oops
 oops_OBJECTS = \
 "CMakeFiles/oops.dir/src/grid.cpp.o" \
@@ -246,7 +259,8 @@ oops_OBJECTS = \
 "CMakeFiles/oops.dir/src/cubicinterpolator.cpp.o" \
 "CMakeFiles/oops.dir/src/polynomialinterpolator.cpp.o" \
 "CMakeFiles/oops.dir/src/paramreader.cpp.o" \
-"CMakeFiles/oops.dir/src/output.cpp.o"
+"CMakeFiles/oops.dir/src/output.cpp.o" \
+"CMakeFiles/oops.dir/src/fieldmap.cpp.o"
 
 # External object files for target oops
 oops_EXTERNAL_OBJECTS =
@@ -263,9 +277,10 @@ liboops.a: CMakeFiles/oops.dir/src/cubicinterpolator.cpp.o
 liboops.a: CMakeFiles/oops.dir/src/polynomialinterpolator.cpp.o
 liboops.a: CMakeFiles/oops.dir/src/paramreader.cpp.o
 liboops.a: CMakeFiles/oops.dir/src/output.cpp.o
+liboops.a: CMakeFiles/oops.dir/src/fieldmap.cpp.o
 liboops.a: CMakeFiles/oops.dir/build.make
 liboops.a: CMakeFiles/oops.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zackarywindham/Research/OOPS/maxwell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library liboops.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zackarywindham/Research/OOPS/maxwell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library liboops.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/oops.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/oops.dir/link.txt --verbose=$(VERBOSE)
 

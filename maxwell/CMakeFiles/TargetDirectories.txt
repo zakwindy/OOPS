@@ -1,6 +1,8 @@
 /Users/zackarywindham/Research/OOPS/maxwell/CMakeFiles/rebuild_cache.dir
 /Users/zackarywindham/Research/OOPS/maxwell/CMakeFiles/edit_cache.dir
 /Users/zackarywindham/Research/OOPS/maxwell/CMakeFiles/oops.dir
+/Users/zackarywindham/Research/OOPS/maxwell/FieldTest/CMakeFiles/rebuild_cache.dir
+/Users/zackarywindham/Research/OOPS/maxwell/FieldTest/CMakeFiles/edit_cache.dir
 /Users/zackarywindham/Research/OOPS/maxwell/MultiGrid/CMakeFiles/rebuild_cache.dir
 /Users/zackarywindham/Research/OOPS/maxwell/MultiGrid/CMakeFiles/edit_cache.dir
 /Users/zackarywindham/Research/OOPS/maxwell/maxwell/CMakeFiles/rebuild_cache.dir

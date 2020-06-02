@@ -8,16 +8,20 @@
 
 ../include/cubic.h
 
-../include/cubicinterpolator.h
-interpolator.h
--
-
 ../include/domain.h
 types.h
 ../include/types.h
 grid.h
 ../include/grid.h
 set
+-
+
+../include/fieldmap.h
+map
+-
+string
+-
+memory
 -
 
 ../include/grid.h
@@ -51,6 +55,8 @@ string
 -
 vector
 -
+fieldmap.h
+-
 
 ../include/odedata.h
 types.h
@@ -69,16 +75,6 @@ sdf.h
 ../include/sdf.h
 
 ../include/parameters.h
-
-../include/paramreader.h
-string
--
-map
--
-
-../include/polynomialinterpolator.h
-interpolator.h
--
 
 ../include/rk4.h
 types.h
@@ -106,32 +102,24 @@ odedata.h
 
 ../include/types.h
 
-/Users/zackarywindham/Research/OOPS/src/cubic.cpp
-cubic.h
+/Users/zackarywindham/Research/OOPS/src/fieldmap.cpp
+fieldmap.h
 -
-
-/Users/zackarywindham/Research/OOPS/src/cubicinterpolator.cpp
-cubicinterpolator.h
+odedata.h
 -
-
-/Users/zackarywindham/Research/OOPS/src/domain.cpp
-domain.h
+solverdata.h
 -
-iostream
--
-
-/Users/zackarywindham/Research/OOPS/src/grid.cpp
 grid.h
 -
-iostream
+stdexcept
 -
-new
+typeinfo
 -
-cmath
+typeindex
 -
-
-/Users/zackarywindham/Research/OOPS/src/interpolator.cpp
-interpolator.h
+memory
+-
+ode.h
 -
 
 /Users/zackarywindham/Research/OOPS/src/ode.cpp
@@ -147,44 +135,12 @@ cstdio
 -
 output.h
 -
-
-/Users/zackarywindham/Research/OOPS/src/odedata.cpp
-odedata.h
--
-new
--
-iostream
--
-
-/Users/zackarywindham/Research/OOPS/src/output.cpp
-output.h
--
-
-/Users/zackarywindham/Research/OOPS/src/paramreader.cpp
-paramreader.h
--
-fstream
--
-iostream
--
-ctype.h
--
-
-/Users/zackarywindham/Research/OOPS/src/polynomialinterpolator.cpp
-polynomialinterpolator.h
+memory
 -
 
 /Users/zackarywindham/Research/OOPS/src/rk4.cpp
 rk4.h
 -
 ode.h
--
-
-/Users/zackarywindham/Research/OOPS/src/solverdata.cpp
-solverdata.h
--
-new
--
-iostream
 -
 

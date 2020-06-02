@@ -3,6 +3,7 @@
 
 maxwell/CMakeFiles/Wave.dir/src/main.cpp.o
  ../include/domain.h
+ ../include/fieldmap.h
  ../include/grid.h
  ../include/interpolator.h
  ../include/ode.h
@@ -21,6 +22,7 @@ maxwell/CMakeFiles/Wave.dir/src/main.cpp.o
  include/maxwellparser.h
 maxwell/CMakeFiles/Wave.dir/src/maxwell.cpp.o
  ../include/domain.h
+ ../include/fieldmap.h
  ../include/grid.h
  ../include/interpolator.h
  ../include/ode.h

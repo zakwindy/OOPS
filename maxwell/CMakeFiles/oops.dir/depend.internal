@@ -13,6 +13,19 @@ CMakeFiles/oops.dir/src/domain.cpp.o
  ../include/grid.h
  ../include/types.h
  /Users/zackarywindham/Research/OOPS/src/domain.cpp
+CMakeFiles/oops.dir/src/fieldmap.cpp.o
+ ../include/domain.h
+ ../include/fieldmap.h
+ ../include/grid.h
+ ../include/interpolator.h
+ ../include/ode.h
+ ../include/odedata.h
+ ../include/parameters.h
+ ../include/rk4.h
+ ../include/solver.h
+ ../include/solverdata.h
+ ../include/types.h
+ /Users/zackarywindham/Research/OOPS/src/fieldmap.cpp
 CMakeFiles/oops.dir/src/grid.cpp.o
  ../include/grid.h
  ../include/types.h
@@ -23,6 +36,7 @@ CMakeFiles/oops.dir/src/interpolator.cpp.o
 CMakeFiles/oops.dir/src/ode.cpp.o
  ../include/cubic.h
  ../include/domain.h
+ ../include/fieldmap.h
  ../include/grid.h
  ../include/interpolator.h
  ../include/ode.h
@@ -53,6 +67,7 @@ CMakeFiles/oops.dir/src/polynomialinterpolator.cpp.o
  /Users/zackarywindham/Research/OOPS/src/polynomialinterpolator.cpp
 CMakeFiles/oops.dir/src/rk4.cpp.o
  ../include/domain.h
+ ../include/fieldmap.h
  ../include/grid.h
  ../include/interpolator.h
  ../include/ode.h

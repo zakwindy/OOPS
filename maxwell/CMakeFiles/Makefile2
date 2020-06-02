@@ -74,6 +74,7 @@ CMAKE_BINARY_DIR = /Users/zackarywindham/Research/OOPS/maxwell
 
 # The main recursive "all" target.
 all: CMakeFiles/oops.dir/all
+all: FieldTest/all
 all: MultiGrid/all
 all: maxwell/all
 all: tests/all
@@ -81,6 +82,7 @@ all: tests/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
+preinstall: FieldTest/preinstall
 preinstall: MultiGrid/preinstall
 preinstall: maxwell/preinstall
 preinstall: tests/preinstall
@@ -89,11 +91,30 @@ preinstall: tests/preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/oops.dir/clean
+clean: FieldTest/clean
 clean: MultiGrid/clean
 clean: maxwell/clean
 clean: tests/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory FieldTest
+
+# Recursive "all" directory target.
+FieldTest/all:
+
+.PHONY : FieldTest/all
+
+# Recursive "preinstall" directory target.
+FieldTest/preinstall:
+
+.PHONY : FieldTest/preinstall
+
+# Recursive "clean" directory target.
+FieldTest/clean:
+
+.PHONY : FieldTest/clean
 
 #=============================================================================
 # Directory level rules for directory MultiGrid
@@ -156,12 +177,12 @@ tests/clean:
 CMakeFiles/oops.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/oops.dir/build.make CMakeFiles/oops.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/oops.dir/build.make CMakeFiles/oops.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zackarywindham/Research/OOPS/maxwell/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target oops"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zackarywindham/Research/OOPS/maxwell/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target oops"
 .PHONY : CMakeFiles/oops.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/oops.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zackarywindham/Research/OOPS/maxwell/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zackarywindham/Research/OOPS/maxwell/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/oops.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zackarywindham/Research/OOPS/maxwell/CMakeFiles 0
 .PHONY : CMakeFiles/oops.dir/rule
@@ -188,7 +209,7 @@ maxwell/CMakeFiles/Wave.dir/all: CMakeFiles/oops.dir/all
 
 # Build rule for subdir invocation for target.
 maxwell/CMakeFiles/Wave.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zackarywindham/Research/OOPS/maxwell/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zackarywindham/Research/OOPS/maxwell/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 maxwell/CMakeFiles/Wave.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zackarywindham/Research/OOPS/maxwell/CMakeFiles 0
 .PHONY : maxwell/CMakeFiles/Wave.dir/rule

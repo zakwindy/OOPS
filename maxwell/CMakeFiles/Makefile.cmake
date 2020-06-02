@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../FieldTest/CMakeLists.txt"
   "../MultiGrid/CMakeLists.txt"
   "../include/oopsconfig.h.in"
   "CMakeFiles/3.17.2/CMakeCCompiler.cmake"
@@ -53,6 +54,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "../include/oopsconfig.h"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "FieldTest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "MultiGrid/CMakeFiles/CMakeDirectoryInformation.cmake"
   "maxwell/CMakeFiles/CMakeDirectoryInformation.cmake"
   "tests/CMakeFiles/CMakeDirectoryInformation.cmake"
