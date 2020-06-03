@@ -9,8 +9,6 @@ maxwell/CMakeFiles/Wave.dir/src/main.cpp.o
  ../include/ode.h
  ../include/odedata.h
  ../include/parameters.h
- ../include/paramparser.h
- ../include/paramreader.h
  ../include/polynomialinterpolator.h
  ../include/rk4.h
  ../include/solver.h
@@ -18,8 +16,6 @@ maxwell/CMakeFiles/Wave.dir/src/main.cpp.o
  ../include/types.h
  /Users/zackarywindham/Research/OOPS/maxwell/src/main.cpp
  include/maxwell.h
- include/maxwellparameters.h
- include/maxwellparser.h
 maxwell/CMakeFiles/Wave.dir/src/maxwell.cpp.o
  ../include/domain.h
  ../include/fieldmap.h
@@ -35,4 +31,3 @@ maxwell/CMakeFiles/Wave.dir/src/maxwell.cpp.o
  ../include/types.h
  /Users/zackarywindham/Research/OOPS/maxwell/src/maxwell.cpp
  include/maxwell.h
- include/maxwellparameters.h

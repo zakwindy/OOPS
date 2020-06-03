@@ -18,6 +18,7 @@ class Maxwell : public ODE
 		virtual ~Maxwell();
 
 		virtual void initData();
+		Result setParameters(Parameters *p);
 };
 
 

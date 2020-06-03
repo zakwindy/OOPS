@@ -66,24 +66,6 @@ grid.h
 
 ../include/parameters.h
 
-../include/paramparser.h
-paramreader.h
-../include/paramreader.h
-parameters.h
-../include/parameters.h
-string.h
--
-
-../include/paramreader.h
-string
--
-map
--
-
-../include/polynomialinterpolator.h
-interpolator.h
--
-
 ../include/rk4.h
 types.h
 ../include/types.h
@@ -110,32 +92,10 @@ odedata.h
 
 ../include/types.h
 
-/Users/zackarywindham/Research/OOPS/maxwell/src/main.cpp
-domain.h
--
-grid.h
--
-rk4.h
--
-cmath
--
-cstdio
--
-maxwell.h
--
-maxwellparser.h
--
-polynomialinterpolator.h
--
-iostream
--
-
 /Users/zackarywindham/Research/OOPS/maxwell/src/maxwell.cpp
 maxwell.h
 -
 operators.h
--
-maxwellparameters.h
 -
 iostream
 -
@@ -144,15 +104,5 @@ cmath
 
 include/maxwell.h
 ode.h
--
-
-include/maxwellparameters.h
-parameters.h
--
-
-include/maxwellparser.h
-paramparser.h
--
-maxwellparameters.h
 -
 
